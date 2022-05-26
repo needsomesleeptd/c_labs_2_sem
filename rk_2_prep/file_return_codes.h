@@ -1,0 +1,17 @@
+#ifndef _FILE_RETURN_CODES_
+#define _FILE_RETURN_CODES_
+
+#define OK 0
+
+#define FILENAME_NOT_VALID -1
+#define FILE_READ_ERROR -2
+#define FILE_WRITE_ERROR -3
+#define FILE_DESCR_NOT_VALID -4
+#define NO_VALID_NUMBERS -5
+#define FILE_OPEN_ERROR -6
+#define FILE_MOV_ERROR -7
+#define FILE_TELL_ERROR -8
+#define FILE_IS_EMPTY -9
+#define INAVLID_FILE_FORMAT -100
+
+#endif // _FILE_RETURN_CODES_
